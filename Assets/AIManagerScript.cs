@@ -32,12 +32,12 @@ public class AIManagerScript : MonoBehaviour
     }
 
     private void getBirdXState(){
-        middlePipes = GameObject.FindGameObjectsWithTag("Middle");
+        middlePipes = GameObject.FindGameObjectsWithTag("middle");
         float birdDistance = birdScript.getBirdPostion().x;
 
-        for(int i = 0; i<middlePipes.Length; i++){
-            Debug.Log("middlepipe ID: " + middlePipes[i].GetInstanceID());
-        }
+        // for(int i = 0; i<middlePipes.Length; i++){
+        //     Debug.Log("middlepipe ID: " + middlePipes[i].GetInstanceID());
+        // }
     }
  
 
